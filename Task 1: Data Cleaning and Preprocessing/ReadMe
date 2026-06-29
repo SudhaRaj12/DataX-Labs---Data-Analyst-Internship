@@ -1,0 +1,156 @@
+# 🩺 Medical Appointment No Shows - Data Cleaning and Preprocessing
+
+## 📌 Project Overview
+
+This project focuses on cleaning and preprocessing the **Medical Appointment No Shows** dataset from Kaggle. The objective is to prepare the raw dataset for further analysis by improving data quality, ensuring consistency, and correcting data types.
+
+---
+
+## 🎯 Objective
+
+The main objectives of this project are:
+
+- Identify missing values
+- Remove duplicate records
+- Standardize text values
+- Convert date columns into appropriate data types
+- Validate numerical data
+- Prepare a clean dataset for Exploratory Data Analysis (EDA)
+
+---
+
+## 📂 Dataset
+
+**Dataset Name:** Medical Appointment No Shows
+
+The dataset contains appointment details of patients and indicates whether they attended their scheduled medical appointments.
+
+### Features
+
+- Patient ID
+- Appointment ID
+- Gender
+- Scheduled Day
+- Appointment Day
+- Age
+- Neighbourhood
+- Scholarship
+- Hypertension
+- Diabetes
+- Alcoholism
+- Handicap
+- SMS Received
+- No Show
+
+---
+
+## 🛠️ Tools Used
+
+- Python
+- Pandas
+- Kaggle Notebook
+
+---
+
+## 📋 Data Cleaning Steps
+
+### 1. Imported the Dataset
+
+Loaded the dataset into a Pandas DataFrame.
+
+### 2. Examined the Dataset
+
+- Displayed first few rows
+- Checked dataset dimensions
+- Inspected data types
+- Reviewed column names
+
+### 3. Checked Missing Values
+
+Verified the dataset for null values using:
+
+```python
+df.isnull().sum()
+```
+
+### 4. Removed Duplicate Records
+
+Identified and removed duplicate rows.
+
+```python
+df.drop_duplicates()
+```
+
+### 5. Standardized Column Names
+
+Ensured column names are clean and consistent.
+
+### 6. Converted Date Columns
+
+Converted:
+
+- ScheduledDay
+- AppointmentDay
+
+to datetime format.
+
+### 7. Standardized Gender Values
+
+Converted:
+
+- M → Male
+- F → Female
+
+for better readability.
+
+### 8. Validated Age
+
+Removed invalid records where age was negative.
+
+### 9. Saved Cleaned Dataset
+
+Exported the cleaned dataset as:
+
+```
+cleaned_medical_appointments.csv
+```
+
+---
+
+## 📊 Data Quality Improvements
+
+- ✅ Missing values checked
+- ✅ Duplicate records removed
+- ✅ Date columns converted
+- ✅ Gender values standardized
+- ✅ Invalid age values removed
+- ✅ Dataset prepared for analysis
+
+---
+
+## 📁 Output
+
+- Cleaned Dataset (`cleaned_medical_appointments.csv`)
+
+---
+
+## 📚 Libraries Used
+
+```python
+import pandas as pd
+import os
+```
+
+---
+
+## 🚀 Conclusion
+
+The dataset was successfully cleaned and preprocessed. It is now ready for exploratory data analysis, visualization, dashboard creation, or machine learning applications.
+
+---
+
+## 👩‍💻 Author
+
+**Sudha Rajendran**
+
+Computer Science Engineer | Aspiring Data Analyst
