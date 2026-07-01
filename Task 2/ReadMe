@@ -1,0 +1,154 @@
+# 📊 Global Sales Analysis Dashboard
+
+A professional Business Intelligence dashboard built to analyze global sales performance across continents, regions, cities, and product categories. This dashboard helps stakeholders monitor key business metrics, identify high-performing markets, and uncover opportunities for growth.
+
+---
+
+## 📌 Project Overview
+
+The Global Sales Dashboard provides an interactive overview of business performance using sales data from multiple regions around the world. It enables users to filter data dynamically and gain actionable insights through visual analytics.
+
+---
+
+## 🚀 Features
+
+- 🌍 Sales analysis by Continent
+- 📍 Regional Profit & Sales comparison
+- 🏙️ Top 5 Cities by Sales and Profit
+- 📦 Category-wise Profit Distribution
+- 📈 Revenue, Profit, Total Orders & Profit Margin KPIs
+- 🎛️ Interactive Filters
+  - Continent
+  - Segment
+  - Country
+  - Category
+
+---
+
+## 📊 Dashboard KPIs
+
+| Metric | Value |
+|---------|--------|
+| Revenue | $3.9M |
+| Total Orders | 2.5K |
+| Profit | $812.8K |
+| Profit Margin | 21% |
+
+---
+
+## 📈 Dashboard Visualizations
+
+- KPI Cards
+- Sales by Continent and Category
+- Profit & Sales by Region
+- Category Profit Distribution (Donut Chart)
+- Top 5 Cities by Sales & Profit (Table)
+- Interactive Filters (Slicers)
+
+---
+
+## 💡 Key Insights
+
+### Overall Performance
+- Generated **$3.9M Revenue** from **2.5K Orders**
+- Achieved **$812.8K Profit**
+- Overall Profit Margin of **21%**
+
+### Regional Analysis
+- North America contributes the highest revenue.
+- Europe is the second strongest market.
+- Africa and South America have comparatively lower sales.
+
+### City Performance
+Top performing cities include:
+- Vancouver
+- Toronto
+- Munich
+- Osaka
+- Sydney
+
+### Category Analysis
+- One product category contributes more than **80%** of the total profit.
+- Business is highly dependent on a single category.
+
+---
+
+## 🛠️ Tools Used
+
+- Looker Studio (Google Data Studio)
+- Microsoft Excel
+- Data Cleaning
+- Data Visualization
+- Business Intelligence
+
+---
+
+## 📂 Project Structure
+
+```
+Global-Sales-Dashboard/
+│
+├── Dashboard.pdf
+├── Dataset.xlsx
+├── README.md
+└── Images/
+    └── Dashboard.png
+```
+
+---
+
+## 📷 Dashboard Preview
+
+> Add a screenshot of your dashboard here.
+
+Example:
+
+```markdown
+![Dashboard Preview](Images/Dashboard.png)
+```
+
+---
+
+## 🎯 Business Objectives
+
+- Monitor global sales performance
+- Compare regional profitability
+- Identify top-performing markets
+- Analyze category contribution
+- Support business decision-making through interactive dashboards
+
+---
+
+## 📚 Skills Demonstrated
+
+- Data Cleaning
+- Data Analysis
+- KPI Design
+- Dashboard Development
+- Business Intelligence
+- Data Visualization
+- Report Design
+- Insight Generation
+
+---
+
+## 📌 Future Improvements
+
+- Time Series Analysis
+- Customer Segmentation
+- Sales Forecasting
+- Product Performance Analysis
+- Drill-through Pages
+- Mobile Dashboard Optimization
+
+---
+
+## 👩‍💻 Author
+
+**Sudha R**
+
+---
+
+## ⭐ If you like this project
+
+Give this repository a ⭐ and feel free to fork it!
