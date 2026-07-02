@@ -1,0 +1,123 @@
+# 📊 Supermarket Sales Analysis Dashboard
+
+An interactive **Supermarket Sales Dashboard** built using **Google Looker Studio** to analyze sales performance, profitability, customer behavior, and product performance. This project provides business insights through interactive visualizations and KPI tracking.
+
+---
+
+## 📌 Project Overview
+
+The objective of this project is to analyze supermarket sales data and create an interactive dashboard that helps monitor business performance and supports data-driven decision-making.
+
+---
+
+## 🎯 Objectives
+
+- Analyze overall sales performance.
+- Monitor profit and business KPIs.
+- Identify top-performing product lines.
+- Compare branch and city performance.
+- Understand customer purchasing behavior.
+- Generate actionable business insights.
+
+---
+
+## 📂 Dataset Information
+
+**Dataset:** Supermarket Sales Dataset
+
+**Dataset Features:**
+- Invoice ID
+- Branch
+- City
+- Customer Type
+- Gender
+- Product Line
+- Unit Price
+- Quantity
+- Tax (5%)
+- Total Sales
+- Date & Time
+- Payment Method
+- Cost of Goods Sold (COGS)
+- Gross Income
+- Gross Margin Percentage
+- Customer Rating
+
+---
+
+## 🛠️ Tools Used
+
+- Google Looker Studio
+- Microsoft Excel
+- Data Cleaning
+- Data Visualization
+
+---
+
+## 📊 Dashboard KPIs
+
+- 💰 Total Sales
+- 💵 Total Profit
+- 🛒 Total Transactions
+- 📦 Quantity Sold
+- ⭐ Average Rating
+- 📈 Profit Margin %
+
+---
+
+## 📈 Dashboard Visualizations
+
+- Sales Trend Over Time
+- Sales by Product Line
+- Profit by Branch
+- Sales by City
+- Payment Method Distribution
+- Customer Type Distribution
+- Sales by Gender
+- Average Rating by Product Line
+- Top 10 Highest Transactions
+
+---
+
+## 🎛️ Interactive Filters
+
+- Date
+- Branch
+- City
+- Product Line
+- Customer Type
+- Gender
+- Payment Method
+
+---
+
+## 📌 Key Insights
+
+- Generated approximately **323K** in total sales.
+- Achieved approximately **15K** in gross profit.
+- Maintained an overall **4.76%** profit margin.
+- Processed more than **1,000** customer transactions.
+- Sold over **6,000** product units.
+- Identified top-performing product categories and branches.
+- Analyzed customer purchasing behavior using interactive filters.
+
+---
+
+## 📈 Future Improvements
+
+- Sales forecasting
+- Customer segmentation
+- Inventory analysis
+- Real-time dashboard integration
+- Advanced business analytics
+
+---
+
+## 👩‍💻 Author
+
+**Sudha R**
+
+
+## ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
