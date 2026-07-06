@@ -1,0 +1,137 @@
+# Titanic Exploratory Data Analysis (EDA)
+
+## Project Overview
+
+This project performs **Exploratory Data Analysis (EDA)** on the **Titanic Dataset** using Python. The objective is to understand the dataset, identify patterns, analyze relationships between variables, and extract meaningful insights using statistical summaries and visualizations.
+
+The analysis includes data exploration, data cleaning, and multiple visualizations created using **Pandas**, **Matplotlib**, and **Seaborn**.
+
+---
+
+## Objectives
+
+- Understand the structure of the Titanic dataset.
+- Perform statistical analysis using Pandas.
+- Clean and preprocess the dataset.
+- Visualize data distributions and relationships.
+- Identify trends and patterns affecting passenger survival.
+- Summarize key insights from the analysis.
+
+---
+
+## Dataset
+
+The Titanic dataset contains information about passengers aboard the RMS Titanic.
+
+### Features
+
+| Feature | Description |
+|----------|-------------|
+| PassengerId | Unique Passenger ID |
+| Survived | Survival status (0 = No, 1 = Yes) |
+| Pclass | Passenger class (1 = First, 2 = Second, 3 = Third) |
+| Name | Passenger name |
+| Sex | Gender |
+| Age | Passenger age |
+| SibSp | Number of siblings/spouses aboard |
+| Parch | Number of parents/children aboard |
+| Ticket | Ticket number |
+| Fare | Ticket fare |
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
+
+---
+
+## Project Workflow
+
+### 1. Data Loading
+- Import required libraries
+- Load the Titanic dataset
+
+### 2. Data Exploration
+- View dataset structure
+- Check data types
+- Generate descriptive statistics
+- Identify missing values
+- Check duplicate records
+
+### 3. Data Cleaning
+- Handle missing values
+- Verify data consistency
+- Prepare data for visualization
+
+### 4. Exploratory Data Analysis
+The following analyses were performed:
+
+- Gender vs Survival
+- Passenger Class vs Survival
+- Relationship between Age, Fare, Passenger Class, and Survival
+- Correlation analysis of numerical features
+- Distribution of Fare and its relationship with Age
+
+---
+
+## Visualizations
+
+The project includes the following visualizations:
+
+- Histogram
+- Boxplot
+- Scatter Plot
+- Pairplot
+- Correlation Heatmap
+- Countplots
+
+---
+
+## Key Insights
+
+- Female passengers had a significantly higher survival rate than male passengers.
+- First-class passengers were more likely to survive than passengers in lower classes.
+- Higher ticket fares were associated with better survival chances.
+- Fare distribution is highly right-skewed with several outliers.
+- Passenger class strongly influences ticket fare.
+- Age has only a weak relationship with passenger survival.
+- No strong linear relationship exists between Age and Fare.
+
+---
+
+
+---
+
+## Results
+
+The exploratory analysis highlights that:
+
+- Gender and passenger class were major factors influencing survival.
+- Fare showed a positive relationship with survival.
+- Several high-fare outliers exist in the dataset.
+- Correlation analysis helped identify relationships among numerical variables.
+- Visualizations provided clear insights into passenger characteristics and survival trends.
+
+---
+
+## Conclusion
+
+This project demonstrates how Exploratory Data Analysis (EDA) can be used to understand a dataset before applying machine learning or predictive modeling. Using statistical summaries and visualizations, meaningful insights were extracted regarding passenger demographics, ticket pricing, and survival patterns.
+
+---
+
+## Author
+
+**Sudha R**
+
+---
+
+## License
+
+This project is intended for educational and learning purposes.
