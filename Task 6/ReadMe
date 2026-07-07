@@ -1,0 +1,152 @@
+# 📈 Task 6: Sales Trend Analysis Using Aggregations (MySQL)
+
+## 📌 Project Overview
+
+This project analyzes sales data using **MySQL** to identify monthly sales trends, yearly revenue, order volume, and profit. The analysis is performed by joining the **Orders** and **Details** datasets and applying SQL aggregation functions.
+
+The project demonstrates the use of SQL concepts such as:
+
+- Joins
+- Aggregate Functions (`SUM()`, `COUNT()`)
+- Date Functions (`YEAR()`, `MONTHNAME()`, `EXTRACT()`)
+- `GROUP BY`
+- `ORDER BY`
+- `LIMIT`
+- Filtering with `WHERE`
+
+---
+
+## 🎯 Objective
+
+Analyze monthly revenue and order volume using SQL aggregation techniques to identify sales trends.
+
+---
+
+## 🛠️ Tools Used
+
+- MySQL
+- MySQL Workbench / MariaDB
+- CSV Dataset
+
+---
+
+## 📂 Dataset
+
+The project uses two datasets:
+
+### Orders Dataset
+
+| Column |
+|---------|
+| Order_ID |
+| Order_Date |
+| CustomerName |
+| State |
+| City |
+
+### Details Dataset
+
+| Column |
+|---------|
+| Order_ID |
+| Amount |
+| Profit |
+| Quantity |
+| Category |
+| Sub_Category |
+| Payment_Mode |
+
+The two tables are joined using the **Order_ID** column.
+
+---
+
+## 📊 SQL Operations Performed
+
+### 1. Monthly Revenue and Order Volume
+
+- Calculated total monthly revenue
+- Counted distinct monthly orders
+
+### 2. Revenue by Year
+
+- Summarized yearly revenue
+
+### 3. Order Volume by Month
+
+- Counted total orders for each month
+
+### 4. Monthly Profit
+
+- Calculated total monthly profit
+
+### 5. Revenue for a Specific Month
+
+- Filtered revenue using the `WHERE` clause
+
+### 6. Lowest Revenue Month
+
+- Used `EXTRACT()` and `LIMIT`
+
+### 7. Highest Revenue Month
+
+- Used `EXTRACT()` and `LIMIT`
+
+---
+
+## 💡 SQL Concepts Used
+
+- INNER JOIN
+- SUM()
+- COUNT(DISTINCT)
+- YEAR()
+- MONTHNAME()
+- EXTRACT()
+- GROUP BY
+- ORDER BY
+- WHERE
+- LIMIT
+
+---
+
+## 📈 Key Insights
+
+- Identified monthly revenue trends.
+- Measured monthly order volume.
+- Calculated yearly sales performance.
+- Analyzed monthly profit.
+- Retrieved revenue for a specific month.
+- Identified the highest revenue month.
+- Identified the lowest revenue month.
+
+---
+
+---
+
+## 🚀 How to Run
+
+1. Create the **Orders** and **Details** tables in MySQL.
+2. Import both CSV files.
+3. Execute the SQL queries.
+4. Review the generated results.
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- SQL Aggregation Functions
+- Data Analysis using SQL
+- Joining Multiple Tables
+- Date Functions
+- Revenue Trend Analysis
+- Business Reporting
+- Writing optimized SQL queries
+
+---
+
+## 👩‍💻 Author
+
+**Sudha R**
+
+---
