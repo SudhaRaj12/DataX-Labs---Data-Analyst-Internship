@@ -1,0 +1,124 @@
+# 📊 Task 7: Get Basic Sales Summary from a Tiny SQLite Database using Python
+
+## 📌 Project Overview
+
+This project demonstrates how to use **SQLite** with **Python** to perform basic sales data analysis. A small SQLite database is created, sample sales records are inserted, SQL queries are executed to calculate total quantity sold and total revenue for each product, and the results are visualized using a simple bar chart.
+
+---
+
+## 🎯 Objective
+
+- Create a SQLite database (`sales_data.db`)
+- Store sales data in a single table
+- Execute SQL queries using Python
+- Display sales summary using Pandas
+- Visualize revenue by product using Matplotlib
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python
+- SQLite3
+- Pandas
+- Matplotlib
+- Google Colab Notebook
+
+---
+
+
+---
+
+## 🗄️ Database Schema
+
+### Table: `sales`
+
+| Column | Data Type | Description |
+|---------|----------|-------------|
+| id | INTEGER | Primary Key |
+| product | TEXT | Product Name |
+| quantity | INTEGER | Quantity Sold |
+| price | REAL | Price per Unit |
+
+---
+
+
+---
+
+## 🧾 SQL Query
+
+```sql
+SELECT
+    product,
+    SUM(quantity) AS total_qty,
+    SUM(quantity * price) AS revenue
+FROM sales
+GROUP BY product;
+```
+
+---
+
+## 📈 Output
+
+The SQL query returns:
+
+- Total Quantity Sold
+- Total Revenue for each product
+
+Example:
+
+| Product | Total Quantity | Revenue |
+|----------|---------------:|---------:|
+| Keyboard | 15 | 18000 |
+| Laptop | 8 | 400000 |
+| Monitor | 9 | 135000 |
+| Mouse | 35 | 17500 |
+
+---
+
+## 📊 Visualization
+
+A simple Matplotlib bar chart is generated to visualize revenue by product.
+
+Output file:
+
+```
+Product By Revenue.png
+```
+
+---
+
+---
+
+## 📚 Learning Outcomes
+
+- Creating SQLite databases
+- Connecting SQLite with Python
+- Executing SQL queries
+- Importing SQL data into Pandas
+- Performing data aggregation
+- Creating data visualizations with Matplotlib
+
+---
+
+## 🚀 Future Enhancements
+
+- Add more sales records
+- Perform monthly and yearly sales analysis
+- Build an interactive dashboard using Streamlit
+- Connect the project to SQLite3
+
+---
+
+## ✅ Conclusion
+
+This project successfully demonstrates how SQLite can be integrated with Python for basic sales analysis. It showcases SQL querying, data processing using Pandas, and data visualization using Matplotlib, making it an excellent beginner-level database analytics project.
+
+---
+
+## 👤 Author
+
+**Sudha R**
+
+
+---
